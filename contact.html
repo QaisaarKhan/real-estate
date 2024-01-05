@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>United Property Kingdom | Welcome to the Revolution of Real Estate</title>
+    <link rel="icon" href="./img/favicon.png" type="image/png" sizes="16x16">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./bootstrap-4.0.0/css/bootstrap.min.css">
+    <!--common CSS-->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
+    <!--cutsom CSS-->
+    <link rel="stylesheet" href="./css/custom.css">
+
+    <!--jQuery/Bootstrap Core script-->
+    <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="./bootstrap-4.0.0/js/bootstrap.js"></script>
+    <!--Cutsom javascript-->
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+    <script type="text/javascript" src="./js/notify.min.js"></script>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_heLXp9SaKLwHWxpbgUlaS");
+        })();
+    </script>
+    <script type="text/javascript" src="./js/contact.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  fixed-top">
+        <div class="container nav-container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/logo_sm.png" alt="" class="nav-full" height="96">
+
+            </a>            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> <img src="./img/down.png" height="24" /></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item upk-margin active">
+                        <a class="nav-link a-nav" href="./index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item upk-margin">
+                        <a class="nav-link a-nav" href="./add.html">Add Property</a>
+                    </li>
+                    <li class="nav-item upk-margin">
+                        <a class="nav-link a-nav" href="./projects.html">Our Projects</a>
+                    </li>
+
+                    <li class="nav-item upk-margin">
+                        <a class="nav-link a-nav" href="./aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item upk-margin">
+                        <a class="nav-link a-nav active-nav " href="./contact.html">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item upk-margin">
+                        <a class="nav-link a-nav" href="./properties.html">Find Property</a>
+                    </li>
+
+                    <li class="nav-item upk-margin">
+                        <a class="nav-link a-nav" href="./agents.html">Agents</a>
+                    </li>
+                    <li class="nav-item drop upk-margin">
+                        <a class=" nav-link a-nav" href="#"><span><img src="./img/phone_icon.png" height="24" /> Call Us Today</span></a>
+
+                        <div class="dropdownContain">
+                            <div class="dropOut">
+                                <div class="triangle"></div>
+                                <ul>
+                                    <li><h5 style="font-size:0.75em;color:#AC6B2D"><b>PWD, Islamabad</b></h5><span>+92 51 843 5000</span></li>
+
+                                    <li><h5 style="font-size:0.75em;color:#AC6B2D"><b>Gulberg, Islamabad</b></h5><span>+92 348 111 2525</span></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-image-login">
+        <div class="text-overlay-login">
+            <h3 class=" text-center tint-yellow white">Contact Us</h3>
+            <br />
+            <h5 class="text-center white">
+                Welcome to the Revolution of Real Estate
+            </h5>
+        </div>
+    </div>
+
+    <div class="col breadcrumbs">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item "><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item active">Contact Us</li>
+        </ol>
+    </div>
+
+    <div class="p-150 no-left-margin no-right-margin  ">
+
+        <div class="row d-flex justify-content-center ">
+            <div class="col text-center p-20">
+                <div class="p-tb-15">
+                    <img src="./img/phone_icon.png" height="32" />
+                </div>
+                <div class="team-name text-center ">
+                    <h3 class="">Call Us Today </h3>
+                    <h5>
+                        <b>
+                            +92 348 111 2525
+                        </b>
+                    </h5>
+                    <h5>
+
+                        <b>
+                            +92 51 843 5000
+                        </b>
+                    </h5>
+                    <h6>Phone lines open from<br /> 9:00 AM to 5:30 PM </h6>
+
+                </div>
+            </div>
+
+            <div class="col text-center p-20">
+                <div class="p-tb-15">
+                    <img src="./img/emailicon.png" height="32" />
+                </div>
+                <div class="team-name text-center ">
+                    <h3 class="">Email Us</h3>
+                    <h6>Drop Us a email if you have some <br /> queries....</h6>
+
+                    <h5>
+                        <b>
+                            team@unitedpropertykingdom.com
+                        </b>
+                    </h5>
+                </div>
+            </div>
+
+            <div class="col text-center p-20">
+                <div class="p-tb-15">
+                    <img src="./img/faxicon.png" height="32" />
+                </div>
+                <div class="team-name text-center ">
+                    <h3 class="">Fax</h3>
+                    <h6>We have Fax as well, keeping<br /> the old-school alive</h6>
+
+                    <h5>
+                        <b>
+                            +92 348 111 2525
+                        </b>
+                    </h5>
+                    <h5>
+
+                        <b>
+                            +92 51 843 5000
+                        </b>
+                    </h5>
+
+                </div>
+            </div>
+
+        </div>
+        <hr />
+        <!--<div class="col-md-12 ">
+
+            <h1 class="text-center p-tb-30">Looking to contact a member of our team</h1>
+            <div class="col-md-8 offset-md-2 p-50 p-tb-30 " style="background-color:white ;border-radius:7px;">
+                <div class="row">
+                    <div class="col-md-6 p-50" style="  border:1px solid #F2F2F2; border-radius:7px">
+                        <h3 class="text-center">Select an Agent from list below</h3>
+                        <br />
+                        <div class="form-group col-md-8 offset-md-2 zero-side-padding">
+                            <select class="form-control property-field " id="agent" placeholder="">
+                                <option>Select Agent</option>
+                            </select>
+
+                        </div>
+                        <div class="form-group col-md-8 offset-md-2 zero-side-padding">
+                            <label for="city">City: </label>
+
+                            <select class="form-control property-field " id="city" placeholder="">
+                                <option>Select Cilty</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 p-50">
+                        <div class="text-center">
+                            <img src="./img/alias.png" class="profile-pic" />
+                        </div>
+                        <div class="team-name text-center">
+                            <h3 class="upk-popup">Umer </h3>
+                            <p> <img src="./img/phone_icon.png" height="16" /> +923216752652 </p>
+                            <p> <img src="./img/emailicon.png" height="16" />  abcc@unitedpropertykingdom.com</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+    </div>
+    <div class="col-md-12 zero-side-padding p-tb-30 p-b-0">
+        <div class="map-box p-50 p-tb-30">
+            <h2 class="upk-popup ">Get in Touch...</h2>
+            <div class="form-group col-md-12 zero-side-padding">
+                <label for="name">Name: <span style="color:red">*</span></label>
+                <input type="text" class="form-control property-field " id="first_name" placeholder="Enter name ">
+
+            </div>
+
+            <div class="form-group col-md-12 zero-side-padding">
+                <label for="email">Email: <span style="color:red">*</span></label>
+                <input type="email" class="form-control property-field " id="email" placeholder="Enter email e.g abc@xyz.com">
+
+            </div>
+            <div class="form-group col-md-12 zero-side-padding">
+                <label for="no">Contact No: <span style="color:red">*</span></label>
+                <input type="tel" class="form-control property-field " id="no" placeholder="Enter contact no e.g xxxx-xxxxxxx">
+
+            </div>
+            <div class="form-group col-md-12 zero-side-padding">
+                <label for="query">Query: <span style="color:red">*</span></label>
+                <textarea type="text" rows="7" class="form-control property-field " id="query" placeholder="Write here...">
+</textarea>
+            </div>
+            <div class="alert alert-success" style="display:none">
+                <strong>Email sent!</strong>  We will get back to you shortly.
+            </div>
+            <div class="alert alert-danger" style="display:none">
+                <strong>Error!</strong>  Something went wrong, try again.
+            </div>
+            <div class="col-md-12 zero-side-padding ">
+
+                <div class="g-recaptcha" data-sitekey="6Ld8FzsUAAAAANQYtbyysXL7cDzemPQOWxW_XCYI"></div>
+                <br />
+                <button class="btn btn-primary upk-button float-right" id="submit"> Submit</button>
+
+            </div>
+            <br />
+            <div class="col-md-12 zero-side-padding ">
+
+            </div>
+
+
+        </div>
+
+        <div id="map" style="height:750px;width:auto">
+        </div>
+
+    </div>
+    <div class="row d-flex justify-content-center zero-side-padding no-left-margin no-right-margin">
+        <div class="col zero-side-padding">
+            <div class=" contact-box-overlay contact-box-1">
+                <div class="contact-text">
+                    <h3 class="contact-text-margin"><span class="upk-popup ">United Property Kingdom</span></h3>
+                    <h5 class="contact-text-margin">
+                        <span class=" ">
+                            +92 51 843 5000
+                        </span>
+                    </h5>
+                    <hr class="contact-box-hr" />
+                    <h6 class="contact-text-margin"><span class=" ">Paris Mall, Commercial Markaz, Phase 1, Pakistan Town, PWD Road, Islamabad.</span></h6>
+                    <h6 class="contact-text-margin">
+                        <span class=" ">
+                            team@unitedpropertykingdom.com
+                        </span>
+                    </h6>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col zero-side-padding">
+            <div class=" contact-box-overlay contact-box-2">
+                <div class="contact-text">
+                    <h3 class="contact-text-margin"><span class="upk-popup ">United Property Kingdom</span></h3>
+                    <h5 class="contact-text-margin">
+                        <span class=" ">
+                            +92 348 111 2525
+                        </span>
+                    </h5>
+                    <hr class="contact-box-hr" />
+                    <h6 class="contact-text-margin"><span class=" ">Telenor Headquarters, 55 River View Avenue, Block B, Gulberg Greens, Islamabad.</span></h6>
+                    <h6 class="contact-text-margin">
+                        <span class=" ">
+                            team@unitedpropertykingdom.com
+                        </span>
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer ">
+        <div class="row float-left">
+            <a href="https://www.facebook.com/UPKGlobal/">
+                <img src="./img/facebook.png" height="32" style="margin:5px" />
+            </a>
+            <a href="https://www.instagram.com/unitedpropertykingdom/">
+                <img src="./img/instagram.png" height="32" style="margin:5px" />
+            </a>
+
+            <p style="padding-top:10px;margin-left:5px;">
+                &copy;	  United Property Kingdom. All Rights reserved. Registered in England and Pakistan No. 5167775
+            </p>
+        </div>
+
+        <div class="float-right">
+            <a href="http://www.codistan.org">  <img src="./img/cd-logo.png" /></a>
+        </div>
+
+    </div>
+    <div class="main-loader" style="display:none">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label"></p>
+        </div>
+    </div>
+    <script>
+        function initMap() {
+
+            var uluru = { lat: 33.568743, lng: 73.137165 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+
+    </script>
+
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcXNflSdpAr20vYkIfPIfeZ6B1upz3DJs&callback=initMap">
+    </script>
+</body>
+
+</html>
